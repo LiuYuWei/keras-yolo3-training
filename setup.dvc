@@ -1,0 +1,12 @@
+md5: 970c23439648450153f07e05d358da48
+cmd: python setup.py
+wdir: .
+deps:
+- md5: daf3972ccccff8e2ec1e3712ac0119ef.dir
+  path: data
+outs:
+- md5: d54d5dc451f04114a3925ab7968bcd4a.dir
+  path: logs/000
+  cache: true
+  metric: false
+  persist: false
