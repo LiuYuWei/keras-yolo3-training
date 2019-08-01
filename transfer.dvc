@@ -1,0 +1,17 @@
+md5: 037c97c9a615b77bb1eee46db93fc7ac
+cmd: python ./util/keras_model_transfer/convert.py ./util/keras_model_transfer/pretrained/yolov3.cfg
+  ./util/keras_model_transfer/pretrained/yolov3.weights ./data/model/yolo.h5
+wdir: .
+deps:
+- md5: 6845d146ea0923c32b24f9263a22cf75
+  path: util/keras_model_transfer/convert.py
+- md5: 8800a001fbce817534a078532685bbd0
+  path: util/keras_model_transfer/pretrained/yolov3.cfg
+- md5: c84e5b99d0e52cd466ae710cadf6d84c
+  path: util/keras_model_transfer/pretrained/yolov3.weights
+outs:
+- md5: fa912b5fb8381d3a6a7c11c14693649d
+  path: data/model/yolo.h5
+  cache: true
+  metric: false
+  persist: false
