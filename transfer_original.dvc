@@ -1,0 +1,17 @@
+md5: 95fc0804aa26e150d871f1110d21fccd
+cmd: python ./util/keras_model_transfer/convert.py ./util/keras_model_transfer/original/darknet53.cfg
+  ./util/keras_model_transfer/original/darknet53.weights ./data/model/darknet53.h5
+wdir: .
+deps:
+- md5: 6845d146ea0923c32b24f9263a22cf75
+  path: util/keras_model_transfer/convert.py
+- md5: 54de3dea5b2e03377f700a766fdded1c
+  path: util/keras_model_transfer/original/darknet53.cfg
+- md5: aee948e0037491ba7c8d60ba8aabff57
+  path: util/keras_model_transfer/original/darknet53.weights
+outs:
+- md5: 78f2d7d9e21f49b752786aa7a4493fe6
+  path: data/model/darknet53.h5
+  cache: true
+  metric: false
+  persist: false
