@@ -1,0 +1,4 @@
+['remote "myremote"']
+url = ..\dvcData
+[core]
+remote = myremote
