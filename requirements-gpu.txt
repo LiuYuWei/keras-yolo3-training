@@ -1,0 +1,7 @@
+pymssql==2.1.4
+sklearn
+numpy
+pandas
+tensorflow-gpu
+keras
+PyYAML
