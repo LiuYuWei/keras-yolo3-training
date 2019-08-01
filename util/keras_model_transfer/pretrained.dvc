@@ -1,0 +1,8 @@
+md5: 44458000b1aab66e84b6d28a5ad2bd4f
+wdir: ../..
+outs:
+- md5: e1d3c4785c42e4ba14f4828878f7f929.dir
+  path: util/keras_model_transfer/pretrained
+  cache: true
+  metric: false
+  persist: false

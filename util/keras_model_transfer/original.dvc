@@ -1,0 +1,8 @@
+md5: ccea92e330de573297378faf48fb2272
+wdir: ../..
+outs:
+- md5: 5c73d064838d8e99b079c7b3a7cba2d8.dir
+  path: util/keras_model_transfer/original
+  cache: true
+  metric: false
+  persist: false
